@@ -1,5 +1,5 @@
 const adminprefix = "%";/// برافكس
-const devs = ['']/// اى دى حقك هنا
+const devs = ['596603567998238731']/// اى دى حقك هنا
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
